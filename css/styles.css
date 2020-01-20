@@ -1,0 +1,266 @@
+/* colours */
+:root {
+  --primary: #74828f !important;
+  --secondary: #c25b56 !important;
+  --title: #fef6eb !important;
+}
+
+body {
+  background-color: #fef6eb !important;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oleo Script", cursive !important;
+}
+
+/* logo font */
+.nav-wrapper {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 5vw;
+  text-align: center;
+}
+
+/* scrolling */
+/* html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+} */
+
+.overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+}
+
+#overlay {
+  background-color: #000000;
+}
+
+#overlay img {
+  opacity: 0.4;
+}
+
+/* top navigation bar */
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+}
+nav a {
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
+
+/* category icon size */
+#category {
+  width: 60%;
+  height: auto;
+}
+
+/* bottom navigation bar */
+.mobile-bottom-bar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 3.778rem;
+  background: #74828f;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.mobile-bottom-bar .footer-link {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center;
+  color: #fef6eb;
+  text-transform: uppercase;
+  font-size: 0.8125rem;
+  font-weight: bold;
+  padding: 0.907rem 1rem;
+}
+
+.mobile-bottom-bar .footer-link i.fa {
+  opacity: 0.8;
+  margin-right: 0.625rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.mobile-bottom-bar .footer-link:focus,
+.mobile-bottom-bar .footer-link:active {
+  color: #fef6eb;
+}
+
+.mobile-bottom-bar .footer-text {
+  position: relative;
+  top: 2px;
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #fef6eb;
+}
+
+/* shopping list */
+* {
+  border-sizing: border-box;
+}
+
+list-group-item {
+  display: list-item;
+}
+
+.cross {
+  text-decoration: line-through;
+  background-color: #fef6eb;
+}
+
+/* search bar */
+
+/* .fas{
+
+    color: white;
+}
+
+.search-icon{
+
+    position: absolute;
+    left: 5%;
+}
+
+
+#search {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translate(0px, -100%) scale(0, 0);
+  -moz-transform: translate(0px, -100%) scale(0, 0);
+  -o-transform: translate(0px, -100%) scale(0, 0);
+  -ms-transform: translate(0px, -100%) scale(0, 0);
+  transform: translate(0px, -100%) scale(0, 0);
+  opacity: 0;
+}
+#search input[type="search"] {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  border: 0px;
+  margin: 0px auto;
+  margin-top: -51px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: none;
+}
+#search .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 61px;
+  margin-left: -45px;
+  background-color:#74828f ;
+  border: black;
+}
+#search .close {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  background-color: #74828f;
+  border-color: #74828f;
+  opacity: 1;
+  padding: 10px 17px;
+  font-size: 27px;
+}
+#search.open {
+  -webkit-transform: translate(0px, 0px) scale(1, 1);
+  -moz-transform: translate(0px, 0px) scale(1, 1);
+  -o-transform: translate(0px, 0px) scale(1, 1);
+  -ms-transform: translate(0px, 0px) scale(1, 1);
+  transform: translate(0px, 0px) scale(1, 1);
+  opacity: 1;
+} */
+
+.menuoverlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #74828f;
+  background-color: #74828f;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menuoverlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.menuoverlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  font-family: "Oleo Script", cursive !important;
+  display: block;
+  transition: 0.3s;
+}
+
+.menuoverlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.menuoverlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

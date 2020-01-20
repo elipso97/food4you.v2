@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FOOD4YOU</title>
+  <!-- materialize icons, css & js -->
+  <link type="text/css" href="css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Oleo+Script&Material+Icons" rel="stylesheet">
+  <link type="text/css" href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Muli&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="manifest" href="manifest.json">
+  <!--iOS Support-->
+  <link rel="apple-touch-icon" href="img/icons/logo-72.png">
+  <meta name="apple-mobile-web-app-status-bar" content="#FEF6EB">
+  <meta name="theme-color" content="#FEF6EB">
+</head>
+
+<body class="#FEF6EB">
+
+  <!-- top nav -->
+  <nav class="z-depth-0">
+    <div class="nav-wrapper container">
+      <a href="index.html">FOOD4YOU</span></a>
+      <span class="right grey-text text-darken-1">
+        
+      </span>
+    </div>
+  </nav>
+
+  <!-- side nav -->
+  <div id="myNav" class="menuoverlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <div class="menuoverlay-content">
+      <a href="about.html">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer;position: absolute;left: 90%;top: 0%;color: white" onclick="openNav()">&#9776;</span>
+  <br>
+
+
+
+<!-- content -->
+
+<div class="container">
+<center>
+  <h2>Vegan mug cake</h2>
+  <div class="row">
+    <div class="col"><br><br><br>
+      <i style="font-size: 30px" class="far fa-clock"></i>
+      <p>Prep: 5 mins<br>
+        Cook: 2 mins</p>
+        <i  style="font-size: 30px" class="fas fa-utensils"></i>
+        <p>Serves: 1</p>
+    </div>
+    <div class="col">
+      <br><br><img src="/img/recipe-img/egg1.jpg" width="170px" height="170px" style=" border-radius: 10px; margin-right: 40px;
+    margin-left: 20px;">
+    </div>
+  </div>
+  </center>
+</div>
+
+<br>
+
+<div class="container">
+
+  <h3>Ingredients:</h3>
+
+  <ul class="list-group">
+    <li class="list-group-item">3 tbsp dairy-free milk, we used oat milk</li>
+    <li class="list-group-item">pinch lemon zest</li>
+    <li class="list-group-item">1 tsp lemon juice</li>
+    <li class="list-group-item">1 tbsp sunflower oil</li>
+    <li class="list-group-item">4 tbsp self-raising flour</li>
+    <li class="list-group-item">2 tbsp caster sugar</li>
+    <li class="list-group-item">pinch bicarbonate of soda</li>
+    <li class="list-group-item">4 fresh or frozen raspberries</li>
+    <li class="list-group-item">coconut cream or dairy-free ice cream</li>
+  </ul>
+
+</div>
+
+<br><br><br>
+
+<div class="container">
+
+  <h3>Instructions:</h3>
+  <ol>
+    <li>Put the milk in a microwave-safe mug, add the lemon zest and juice and leave to sit for 2-3 mins. It should start to look a bit grainy, as if it has split. Stir in the sunflower oil, flour, sugar and bicarbonate of soda. Mix really well with a fork until smooth.</li>
+    <li>Drop in the raspberries then microwave on high for 1 min 30 secs, or until puffed up and cooked through.</li>
+    <li>Serve with a drizzle of coconut cream, or a scoop of dairy-free ice cream if you like.</li>
+  </ol>
+
+</div>
+
+<br><br><br><br>
+
+<!-- bottom navigation bar -->
+
+<footer>
+  <div class="mobile-bottom-bar">
+    <a href="user.html" class="footer-link">
+      <i class="fa fa-user"></i> <span class='footer-text'><br>User</span>
+    </a>
+    <a href="shopping-list.html" class="footer-link">
+      <i class="fa fa-list"></i> <span class='footer-text'><br>Shopping List</span>
+    </a>
+    <a href="my-recipes.html" class="footer-link">
+      <i class="fa fa-book-open"></i> <span class='footer-text'><br>My Recipes</span>
+    </a>
+  </div>
+</footer>
+
+
+<!-- script tags -->
+  <script src="/js/app.js"></script>
+  <script src="/js/ui.js"></script>
+  <script src="/js/main.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+</body>
+
+</html>

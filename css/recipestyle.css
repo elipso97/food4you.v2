@@ -1,0 +1,101 @@
+
+.bigcontainer{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color:none;
+    top: 25%;
+
+}
+
+
+.selection{
+    position: absolute;
+    width:80%;
+    height:100%;
+    left:10%;
+    background-color:none;
+    top: 7%;
+
+}
+
+.line{
+    position: absolute;
+    width: 100%;
+    top: 1%;
+}
+
+.line2{
+    position: absolute;
+    width: 100%;
+    top: 48%;
+}
+
+hr {
+  border-top: 4px dotted white;
+    width:80%;
+    left:10%;
+    position: absolute;
+}
+
+
+.topleft{
+    position: absolute;
+    width:40%;
+    left: 8%;
+    border-radius: 10px;
+}
+
+#topleft{
+position: absolute;
+    /* width: 13.5%; */
+    left: 159px;
+    top: 307px;
+}
+
+
+.topright{
+    position: absolute;
+    width:40%;
+    left:55%;
+    border-radius: 10px;
+}
+
+#topright{
+    position: absolute;
+    /* width: 13.5%; */
+    left: 509px;
+    top: 293px;
+}
+
+
+.bottomleft{
+    position: absolute;
+    width:40%;
+    top: 22%;
+    left:8%;
+    border-radius: 10px;
+}
+
+#bottomleft{
+position: absolute;
+    /* width: 13.5%; */
+    left: 120px;
+    top: 690px;
+}
+
+
+.bottomright{
+    position: absolute;
+    width:40%;
+    top: 22%;
+    left:55%;
+    border-radius: 10px;
+}
+
+#bottomright{
+    position: absolute;
+    /* width: 13.5%; */
+    left: 504px;
+    top: 678px;
+}
