@@ -70,6 +70,8 @@
 
 
 
+ 
+   
 <!-- content -->
 
 <div class="container">
@@ -84,8 +86,13 @@
         <p>Serves: 6</p>
     </div>
     <div class="col">
-      <br><br><img src="/img/recipe-img/crustacean1.jpg" width="170px" height="170px" style=" border-radius: 10px; margin-right: 40px;
-    margin-left: 20px;">
+
+      <br><br><input type="button" id="testButton" value="Save" onclick="save()" />
+      <div style="display:none" id="bookingDiv" type="text"><img src="img/recipe-img/crustacean1.jpg" width="170px" height="170px" style=" border-radius: 10px; margin-right: 40px;
+    margin-left: 20px;"></div>
+
+
+
     </div>
   </div>
   </center>
@@ -139,14 +146,18 @@
     <a href="my-recipes.html" class="footer-link">
       <i class="fa fa-book-open"></i> <span class='footer-text'><br>My Recipes</span>
     </a>
+    <a href="crustacean.html" class="footer-link">
+      <i class="fa fa-arrow-circle-left"></i></i> <span class='footer-text'><br>Back</span>
+    </a>
   </div>
 </footer>
 
 
 <!-- script tags -->
-  <script src="/js/app.js"></script>
-  <script src="/js/ui.js"></script>
-  <script src="/js/main.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+
   <script>
     function openNav() {
       document.getElementById("myNav").style.width = "100%";
@@ -156,6 +167,8 @@
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
+
+ 
 </body>
 
 </html>

@@ -9,3 +9,33 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+//myrecipes
+
+function openDiv() {
+    var film = document.getElementById("bookingDiv");
+    if(film.style.display == "none"){
+        film.style.display = "block";
+    }
+}
+
+function save() {
+    openDiv();
+    var saveDiv = document.getElementById("bookingDiv");
+    if (saveDiv.style.display == "block") {
+
+        localStorage.setItem("isTextVisible", true);
+
+    }
+
+}
+
+function load() {
+    var isTextVisible = localStorage.getItem("isTextVisible");
+    if (isTextVisible == "true") {
+
+        openDiv();
+
+    }
+
+}
